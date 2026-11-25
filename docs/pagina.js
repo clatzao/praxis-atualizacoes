@@ -39,6 +39,13 @@ if (acoes && /Windows NT/.test(ua) && !/Android/.test(ua)) {
   windows.classList.remove('claro')
   android.classList.add('claro')
 }
+// iPhone, iPad e Mac não têm instalador: a versão do navegador vem primeiro.
+if (acoes && /iPhone|iPad|Macintosh/.test(ua)) {
+  const web = acoes.querySelector('[data-web]')
+  acoes.prepend(web)
+  web.classList.remove('claro')
+  acoes.querySelector('[data-baixar="android"]')?.classList.add('claro')
+}
 
 const mb = (bytes) => `${(bytes / 1048576).toLocaleString('pt-BR', { maximumFractionDigits: bytes > 50e6 ? 0 : 1 })} MB`
 const data = (iso) => new Date(iso).toLocaleDateString('pt-BR', { day: 'numeric', month: 'long' })
@@ -58,7 +65,7 @@ fetch(`https://api.github.com/repos/${REPO}/releases?per_page=3`, { headers: { A
       document.querySelectorAll(`[data-tamanho="${tipo === 'android' ? 'apk' : 'exe'}"]`).forEach((el) => (el.textContent = mb(a.size)))
     }
     const versao = document.querySelector('[data-versao]')
-    if (versao) versao.textContent = `Versão ${ultima.name || ultima.tag_name.replace(/^v/, '')}, de ${data(ultima.published_at)}. Android 7 ou mais novo e Windows 10 ou 11.`
+    if (versao) versao.textContent = `Versão ${ultima.name || ultima.tag_name.replace(/^v/, '')}, de ${data(ultima.published_at)}. Android 7 ou mais novo, Windows 10 ou 11, ou direto no navegador.`
 
     // "O que mudou": cada linha "- ..." do texto da release vira um item.
     const lista = document.querySelector('[data-novidades]')

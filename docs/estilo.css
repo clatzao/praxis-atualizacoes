@@ -120,7 +120,7 @@ a { color: inherit; }
 /* Como instalar: dois blocos de passos lado a lado. */
 .instalar { margin-top: var(--entre-secoes); background: var(--superficie-2); padding: clamp(80px, 12vh, 150px) var(--margem); }
 .instalar h2 { font-size: clamp(40px, 5.6vw, 92px); line-height: 1; letter-spacing: -.045em; font-weight: 800; }
-.passos { margin-top: clamp(40px, 6vh, 72px); display: grid; grid-template-columns: 1fr 1fr; gap: clamp(20px, 3vw, 40px); }
+.passos { margin-top: clamp(40px, 6vh, 72px); display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(20px, 3vw, 40px); }
 .passos > div { background: var(--superficie); border-radius: 24px; padding: clamp(24px, 3vw, 44px); }
 .passos h3 { font-size: 30px; letter-spacing: -.03em; line-height: 1.1; }
 .passos ol { margin-top: 20px; padding-left: 1.2em; display: grid; gap: 12px; }

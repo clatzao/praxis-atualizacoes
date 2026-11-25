@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PRAXIS: baixar o app de estudos para Android e Windows</title>
+<title>PRAXIS: app de estudos para Android, Windows e navegador</title>
 <meta name="description" content="Agenda de provas, notas, alarmes por matéria, revisão e um tutor de IA. No celular e no PC, com os mesmos dados. Grátis.">
 <meta name="theme-color" content="#f5f5f3" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#141413" media="(prefers-color-scheme: dark)">
 <meta property="og:title" content="PRAXIS: passe direto com o Pra">
-<meta property="og:description" content="Agenda de provas, notas, alarmes por matéria e um tutor de IA. Android e Windows, grátis.">
+<meta property="og:description" content="Agenda de provas, notas, alarmes por matéria e um tutor de IA. Android, Windows e navegador, grátis.">
 <meta property="og:image" content="telas/inicio-pc-claro.webp">
 <link rel="icon" href="icone.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,8 +32,9 @@
         <div class="acoes" data-acoes>
           <a class="botao" data-baixar="android" href="https://github.com/clatzao/praxis-atualizacoes/releases/latest"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.6 9.5 19.4 6.3a.4.4 0 0 0-.7-.4l-1.8 3.2a11 11 0 0 0-9.8 0L5.3 5.9a.4.4 0 1 0-.7.4l1.8 3.2A10.4 10.4 0 0 0 1 18h22a10.4 10.4 0 0 0-5.4-8.5ZM7 15.3a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm10 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/></svg>Baixar para Android <small data-tamanho="apk"></small></a>
           <a class="botao claro" data-baixar="windows" href="https://github.com/clatzao/praxis-atualizacoes/releases/latest"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 5.5 10.4 4.5v7H3v-6Zm8.3-1.1L21 3v8.5h-9.7V4.4ZM3 12.5h7.4v7L3 18.5v-6Zm8.3 0H21V21l-9.7-1.4v-7.1Z"/></svg>Baixar para Windows <small data-tamanho="exe"></small></a>
+          <a class="botao claro" data-web href="https://praxis-web-tawny.vercel.app/"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18Zm-9 9h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3Z"/></svg>Abrir no navegador</a>
         </div>
-        <p class="versao" data-versao>Sempre a versão mais nova. Android 7 ou mais novo e Windows 10 ou 11.</p>
+        <p class="versao" data-versao>Sempre a versão mais nova. Android 7 ou mais novo, Windows 10 ou 11, ou direto no navegador.</p>
       </div>
     </div>
     <div class="vitrine">
@@ -125,8 +126,18 @@
         </ol>
         <a class="botao" data-baixar="windows" href="https://github.com/clatzao/praxis-atualizacoes/releases/latest">Baixar para Windows <small data-tamanho="exe"></small></a>
       </div>
+      <div class="surge" style="--i:3">
+        <h3>No navegador</h3>
+        <ol>
+          <li>Abra o PRAXIS no navegador, em qualquer computador, iPhone ou Mac.</li>
+          <li>Entre com a mesma conta: tudo aparece igual.</li>
+          <li>Não precisa instalar nem atualizar.</li>
+          <li>Alarmes e lembretes não tocam no navegador: para isso, use o app do celular ou do PC.</li>
+        </ol>
+        <a class="botao" data-web href="https://praxis-web-tawny.vercel.app/">Abrir no navegador</a>
+      </div>
     </div>
-    <p class="aviso-iphone surge">Depois de instalado, o PRAXIS se atualiza sozinho. Ainda não tem versão para iPhone nem para Mac.</p>
+    <p class="aviso-iphone surge">Depois de instalado, o PRAXIS se atualiza sozinho. No iPhone e no Mac, use a versão do navegador.</p>
   </section>
 
   <section class="secao novidades" id="novidades" aria-labelledby="novidades-titulo">
@@ -159,11 +170,11 @@
     <div class="itens">
       <details class="surge"><summary>É grátis mesmo?</summary><p>É. Não tem plano pago nem propaganda. O Pra usa a cota gratuita dos provedores de IA, por isso tem um limite de uso por dia.</p></details>
       <details class="surge"><summary>Onde ficam os meus dados?</summary><p>Na sua conta, sincronizados entre o celular e o PC. Os arquivos ficam no seu Google Drive, só nas pastas que o PRAXIS cria. O que você manda para o Pra passa por provedores de IA; no plano gratuito do Gemini, o Google pode usar esse conteúdo para melhorar os modelos.</p></details>
-      <details class="surge"><summary>Funciona sem internet?</summary><p>Funciona. O app abre com o que está no aparelho e o que você mudar sem internet é enviado quando a conexão volta. O Pra e o Google Drive precisam de internet.</p></details>
+      <details class="surge"><summary>Funciona sem internet?</summary><p>O app instalado funciona. Ele abre com o que está no aparelho e o que você mudar sem internet é enviado quando a conexão volta. O Pra, o Google Drive e a versão do navegador precisam de internet.</p></details>
       <details class="surge"><summary>Por que o Windows avisa "editor desconhecido"?</summary><p>Porque o instalador não tem certificado pago. É só clicar em "Mais informações" e depois em "Executar assim mesmo".</p></details>
       <details class="surge"><summary>Como eu atualizo?</summary><p>Não precisa fazer nada: no PC, a versão nova baixa sozinha; no celular, o PRAXIS avisa e instala pelo próprio app.</p></details>
       <details class="surge"><summary>O celular diz "app não instalado". E agora?</summary><p>Acontece com quem tem uma versão anterior à 0.24.0, que tinha outra assinatura. Abra o PRAXIS antigo com internet para ele sincronizar, desinstale e instale de novo por esta página. Tudo volta quando você entrar na conta; só o tema, o widget e as permissões precisam ser configurados outra vez.</p></details>
-      <details class="surge"><summary>Tem para iPhone ou Mac?</summary><p>Ainda não. Por enquanto, só Android e Windows.</p></details>
+      <details class="surge"><summary>Tem para iPhone ou Mac?</summary><p>Tem a versão do navegador, que abre em qualquer aparelho com a mesma conta. Só os alarmes e lembretes não tocam nela.</p></details>
     </div>
   </section>
 </main>
