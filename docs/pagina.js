@@ -1,5 +1,5 @@
 /*
-  Página de download do PRAXIS.
+  Página de download do SKOLĒ.
   - A conta da VA2 (a mesma do app, modelo Padrão).
   - Os botões apontam sozinhos para a última versão publicada (API do GitHub);
     sem a API, ficam no link das releases, que também funciona.
@@ -22,7 +22,7 @@ if (conta) {
       falta <= 0
         ? 'Você já passou, mesmo zerando a VA2.'
         : falta > 30
-          ? `Nem com 30 na VA2: faltariam ${fmt(falta - 30)}. O PRAXIS já monta o plano da final.`
+          ? `Nem com 30 na VA2: faltariam ${fmt(falta - 30)}. O SKOLĒ já monta o plano da final.`
           : `Você precisa de ${fmt(falta)} na VA2.`
   }
   va1.addEventListener('input', atualizar)
