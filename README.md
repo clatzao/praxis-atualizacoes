@@ -4,11 +4,11 @@ Assistente pessoal de estudos para Android e PC, com os mesmos dados nos dois.
 
 **Página de download:** https://clatzao.github.io/praxis-atualizacoes/ (os botões já apontam para a versão mais nova)
 
-## Instalar (versão 0.27.0)
+## Instalar (versão 0.28.0)
 
-- **PC (Windows):** [baixar PRAXIS-Setup-0.27.0.exe](https://github.com/clatzao/praxis-atualizacoes/releases/download/v0.27.0/PRAXIS-Setup-0.27.0.exe)
+- **PC (Windows):** [baixar PRAXIS-Setup-0.28.0.exe](https://github.com/clatzao/praxis-atualizacoes/releases/download/v0.28.0/PRAXIS-Setup-0.28.0.exe)
   O Windows pode avisar "editor desconhecido": clique em "Mais informações" > "Executar assim mesmo".
-- **Celular (Android):** [baixar PRAXIS-0.27.0.apk](https://github.com/clatzao/praxis-atualizacoes/releases/download/v0.27.0/PRAXIS-0.27.0.apk)
+- **Celular (Android):** [baixar PRAXIS-0.28.0.apk](https://github.com/clatzao/praxis-atualizacoes/releases/download/v0.28.0/PRAXIS-0.28.0.apk)
   Abra o arquivo no celular e permita "instalar apps desconhecidos" quando o Android pedir.
 
 Depois de instalado, o PRAXIS se atualiza sozinho. Crie sua conta na primeira tela.
