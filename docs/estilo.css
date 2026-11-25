@@ -17,6 +17,8 @@
   --pra-barriga: #ece9fa;
   --pra-tinta: #46407a;
   --pra-bochecha: #f0b9b3;
+  --pra-olho: #ffffff;
+  --pra-brilho: #ffffff;
   --margem: clamp(16px, 4vw, 56px);
   --entre-secoes: clamp(112px, 16vh, 200px);
   color-scheme: light dark;
@@ -32,11 +34,12 @@
     --primario-texto: #1b1b1a;
     --suave-lavanda: #24222f;
     --tinta-lavanda: #c2bbef;
-    --pra-corpo: #6f68a8;
+    --pra-corpo: #7b74b8;
     --pra-corpo-borda: #4b4577;
     --pra-barriga: #8b83c4;
-    --pra-tinta: #1d1a33;
+    --pra-tinta: #16132b;
     --pra-bochecha: #c98a83;
+    --pra-olho: #f3f1fb;
   }
 }
 
@@ -170,7 +173,7 @@ a { color: inherit; }
 @media (prefers-reduced-motion: no-preference) {
   .js .surge { transform: translateY(24px); transition: opacity .7s cubic-bezier(.2, .7, .2, 1), transform .7s cubic-bezier(.2, .7, .2, 1); transition-delay: calc(var(--i, 0) * 80ms); }
   .js .surge.visto { transform: none; }
-  .frase .pra .braco { transform-origin: 50px 37px; animation: aceno 2.4s ease-in-out .6s 2; }
+  .frase .pra .braco { transform-origin: 51px 36px; animation: aceno 2.4s ease-in-out .6s 2; }
   .frase .pra { animation: pulo .7s cubic-bezier(.3, 1.6, .5, 1) .2s both; }
   .vitrine .pc img { animation: deslize 18s ease-in-out infinite alternate; }
 }
