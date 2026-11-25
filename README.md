@@ -2,6 +2,8 @@
 
 Assistente pessoal de estudos para Android e PC, com os mesmos dados nos dois.
 
+**Página de download:** https://clatzao.github.io/praxis-atualizacoes/ (os botões já apontam para a versão mais nova)
+
 ## Instalar (versão 0.25.0)
 
 - **PC (Windows):** [baixar PRAXIS-Setup-0.25.0.exe](https://github.com/clatzao/praxis-atualizacoes/releases/download/v0.25.0/PRAXIS-Setup-0.25.0.exe)
